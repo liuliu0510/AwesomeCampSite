@@ -13,21 +13,21 @@ Each Campground has:
 
 RESTFUL ROUTES
 
-name                 url                               verb         desc.
-==============================================================================
-INDEX   /campgrounds                                    GET
-NEW     /campgrounds/new                                GET
-CREATE  /campgrounds                                    POST
-SHOW    /campgrounds/:id                                GET
-EDIT    /campgrounds/:id/edit                           GET
-UPDATE  /campgrounds/:id                                PUT
-DELETE  /campgrounds/:id                                DELETE
-
-NEW     /campgrounds/:id/comments/new                   GET
-CREATE  /campgrounds/:id/comments                       POST
-EDIT    /campgrounds/:id/comments/:comment_id/edit      GET
-UPDATE  /campgrounds/:id/comments/:comment_id/          PUT
-DELETE  /campgrounds/:id/comments/:comment_id/          DELETE
+|name                | url                            |   verb     |     
+|--------------------|--------------------------------|------------|
+|INDEX  | /campgrounds                                 |   GET    |
+|NEW    | /campgrounds/new                             |   GET    |
+|CREATE | /campgrounds                                 |   POST   |
+|SHOW   | /campgrounds/:id                             |   GET    |
+|EDIT   | /campgrounds/:id/edit                        |   GET    |
+|UPDATE | /campgrounds/:id                             |   PUT    |
+|DELETE | /campgrounds/:id                             |   DELETE |
+===================================================================== 
+|NEW    | /campgrounds/:id/comments/new                |   GET    |
+|CREATE | /campgrounds/:id/comments                     |  POST   |
+|EDIT   |  /campgrounds/:id/comments/:comment_id/edit   |   GET   |
+|UPDATE | /campgrounds/:id/comments/:comment_id/       |   PUT    |
+|DELETE | /campgrounds/:id/comments/:comment_id/       |   DELETE |
 
 
 ## Initial Setup
