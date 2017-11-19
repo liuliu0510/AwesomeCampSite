@@ -22,7 +22,7 @@ RESTFUL ROUTES
 |EDIT   | /campgrounds/:id/edit                        |   GET    |
 |UPDATE | /campgrounds/:id                             |   PUT    |
 |DELETE | /campgrounds/:id                             |   DELETE |
-|=======|==============================================|==========|
+|=======|===========================================|==========|
 |NEW    | /campgrounds/:id/comments/new                |   GET    |
 |CREATE | /campgrounds/:id/comments                     |  POST   |
 |EDIT   |  /campgrounds/:id/comments/:comment_id/edit   |   GET   |
